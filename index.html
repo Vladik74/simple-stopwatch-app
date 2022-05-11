@@ -7,34 +7,34 @@
     <script type="text/javascript" src="stopwatch.js"></script>
 </head>
 <body>
-<div class="stopwatch">
-    <div id="display">
+<div class="container">
+    <div class="stopwatch">
         <span id="hours">00</span>
         <span id="minutes"> 00</span>
         <span id="seconds">00</span>
         <span id="milliseconds">00</span>
     </div>
-</div>
 
-<div class="buttons">
-    <button id="start" onclick="startStop()"> Start</button>
-    <button id="reset" onclick="reset()"> Reset</button>
-    <button id="split" hidden onclick="split()"> Split</button>
-</div>
+    <div class="buttons">
+        <button id="start" onclick="startStop()"> Start</button>
+        <button id="reset" onclick="reset()"> Reset</button>
+        <button id="split" hidden onclick="split()"> Split</button>
+    </div>
 
-<div class="circles">
-    <table>
-        <thead>
-        <tr>
-            <th>#</th>
-            <th>Time</th>
-            <th>Diff</th>
-        </tr>
-        </thead>
-        <tbody>
+    <div class="circles">
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Time</th>
+                <th>Diff</th>
+            </tr>
+            </thead>
+            <tbody>
 
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 </div>
 </body>
 </html>

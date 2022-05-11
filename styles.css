@@ -1,38 +1,48 @@
 .stopwatch {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin: 0 -5px;
     height: 180px;
     font-size: 60px;
     font-family: Tahoma, serif;
 }
 
 #hours {
+    margin: 0 5px;
+    display: flex;
     text-align: center;
     border: 2px solid #0C0C0C;
     background: lavender linear-gradient(#D9D4E3, #C5B1E9);
 }
 
 #minutes {
+    display: flex;
+    margin: 0 5px;
     text-align: center;
     border: 2px solid #0C0C0C;
     background: lavender linear-gradient(#D9D4E3, #C5B1E9);
 }
 
 #seconds {
+    display: flex;
+    margin: 0 5px;
     text-align: center;
     border: 2px solid #0C0C0C;
     background: lavender linear-gradient(#D9D4E3, #C5B1E9);
 }
 
 #milliseconds {
+    display: flex;
+    margin: 0 5px;
     text-align: center;
     border: 2px solid #0C0C0C;
     background: lavender linear-gradient(#D9D4E3, #C5B1E9);
 }
 
 .buttons {
-    flex: border-box;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -79,6 +89,7 @@
 }
 
 .circles {
+    display: flex;
     font-size: 20px;
     border-color: blue;
     border-style: dotted;
@@ -88,7 +99,7 @@
 
 th, td:first-child {
     background: #AFCDE7;
-    color: white;
+    color: #2C3E50;
     padding: 10px 20px;
 }
 
@@ -100,3 +111,16 @@ tbody tr:nth-child(even) {
     background-color: burlywood;
 }
 
+html {
+    background: linear-gradient(#2E9AFF, #F498AD) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    min-height: 100%;
+}
