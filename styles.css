@@ -1,0 +1,102 @@
+.stopwatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    font-size: 60px;
+    font-family: Tahoma, serif;
+}
+
+#hours {
+    text-align: center;
+    border: 2px solid #0C0C0C;
+    background: lavender linear-gradient(#D9D4E3, #C5B1E9);
+}
+
+#minutes {
+    text-align: center;
+    border: 2px solid #0C0C0C;
+    background: lavender linear-gradient(#D9D4E3, #C5B1E9);
+}
+
+#seconds {
+    text-align: center;
+    border: 2px solid #0C0C0C;
+    background: lavender linear-gradient(#D9D4E3, #C5B1E9);
+}
+
+#milliseconds {
+    text-align: center;
+    border: 2px solid #0C0C0C;
+    background: lavender linear-gradient(#D9D4E3, #C5B1E9);
+}
+
+.buttons {
+    flex: border-box;
+    text-align: center;
+}
+
+#start {
+    margin: 0 15px 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #a4afba;
+    border-radius: 3px;
+    background-color: #90e5f0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#reset {
+    margin: 0 15px 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #a4afba;
+    border-radius: 3px;
+    background-color: #eb678f;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#split {
+    margin: 0 15px 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #a4afba;
+    border-radius: 3px;
+    background-color: #9786ad;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#split:hover {
+    background-color: #957db5;
+}
+
+#reset:hover {
+    background-color: #ed4779;
+}
+
+#start:hover {
+    background-color: #90ced6;
+}
+
+.circles {
+    font-size: 20px;
+    border-color: blue;
+    border-style: dotted;
+    width: max-content;
+    text-align: center;
+}
+
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #90e5f0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: burlywood;
+}
+
